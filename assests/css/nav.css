@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+}
+.nav{
+    position: fixed;
+    width: 22%;
+    left: -18%;
+    transition: left 0.4s ease;
+    z-index: 999;
+}
+.side-nav{
+    width: 80%;
+    height: 100vh;
+    background-color: black;
+    position: relative;
+    transition: left 0.4s ease; 
+}
+.nav.active{
+    left: 0;
+}
+.nav-header{
+    width: 20%;
+    height: 100vh;
+    position: relative;
+    background-color: white;
+}
+.open-close-icon{
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+ul a{
+    color: white;
+    text-decoration: none;
+}

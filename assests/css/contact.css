@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+.form-control{
+    background-color: transparent;
+    border: 1px solid #555;
+    color: white;
+}
+.form-control::placeholder{
+    color: gray;
+}
+

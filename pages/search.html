@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="../assests/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../assests/css/nav.css">
+    <link rel="stylesheet" href="../assests/css/layer.css">
+    <link rel="stylesheet" href="../assests/css/search.css">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="container d-flex justify-content-between px-5 pt-4">
+        <input type="text" placeholder="Search By Name" id="searchInputById" class="form-control bg-transparent">  
+        <input type="text" placeholder="Search By First Letter" id="searchInputLetter" class="form-control bg-transparent">  
+    </div>
+    <div class="container mt-4">
+
+        <div class="text-center d-none" id="spinner">
+            <div class="spinner-border text-light"></div>
+        </div>
+        
+
+        <div class="row g-4 mt-3" id="results"></div>
+
+    </div>
+
+    <script src="../assests/js/nav.js"></script>
+    <script src="../assests/js/search.js"></script>
+</body>
+</html>

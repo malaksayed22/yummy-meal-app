@@ -1,0 +1,10 @@
+body{
+    background-color: black;
+}
+input{
+    width: 48% !important;
+}
+::placeholder,
+input{
+    color: gray !important;
+}
